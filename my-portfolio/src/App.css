@@ -3,23 +3,41 @@
   text-align: center;
 }
 .navs{
-  background-color: aqua;
+  background-color: #64d8e6;
   color: black!important;
 }
 .home{
   width: 100vw;
-  height: 50vh;
-  background-color: aqua;
+  height: 43vh;
+  /* background-color: aqua; */
   display: flex;
   justify-content: center;
   align-items: center;
+  background: linear-gradient(#64d8e6, #9198e5);
+  /* border-bottom-left-radius: 50% 35%; */
+  border-bottom-right-radius: 50% 130px;
+}
+.curve{
+  margin-top: 0;
+  border-top-left-radius: 50% 100%;
+  width: 50%;
+  position: relative;
+  height: 130px;
+  background: white;
+  z-index: 1;
+}
+.curve2 {
+  position: absolute;
+  background:#9198e5;
+  width: 50%;
+  height: 130px;
 }
 .projects{
   margin: auto 0;
 }
 footer{
   margin-top: auto ;
-  background-color: aqua;
+  background-color: #9099e5;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -30,11 +48,13 @@ footer{
 h2::before {  
   transform: scaleX(0);
   transform-origin: bottom right;
+  
 }
 
 h2:hover::before {
   transform: scaleX(1);
   transform-origin: bottom left;
+  
 }
 
 h2::before {
@@ -43,12 +63,23 @@ h2::before {
   position: absolute;
   top: 0; right: 0; bottom: 0; left: 0;
   inset: 0 0 0 0;
-  background: hsl(30 100% 80%);
+  background: #8da0e5;
+  /* background: linear-gradient(#64d8e6, #9198e5); */
   z-index: -1;
   transition: transform .3s ease;
+  border-radius: 8px;
 }
 
 h2 {
   position: relative;
   font-size: 5rem;
 }
+a{
+  color: black!important;
+  text-decoration: inherit!important;
+}
+/* curvatura     margin-top: 0;
+    width: 50%;
+    height: 115px;
+    background: #9198e5;
+    clip-path: polygon(0% 10%, 0 0, 19% 0%, 85% 0%, 100% -1%, 76% 13%, 60% 22%, 45% 32%, 32% 42%, 19% 56%, 11% 67%, 0% 85%); */

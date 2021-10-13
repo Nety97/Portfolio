@@ -2,13 +2,15 @@ import { Navbar, Container, Nav } from "react-bootstrap";
 import Rotate from 'react-reveal/Rotate';
 import Fade from 'react-reveal/Fade';
 
+
 function NavBar() {
   return (
     <nav className="navs">
       <Navbar bg="" expand="lg">
         <Container>
           <Rotate top left>
-            <Navbar.Brand href="#home">Netaniel Wahnich</Navbar.Brand>
+            <Navbar.Brand href="/">Netaniel Wahnich</Navbar.Brand>
+            
           </Rotate>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">

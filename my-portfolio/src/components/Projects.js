@@ -3,9 +3,11 @@ import Rotate from 'react-reveal/Rotate';
 
 function Projects() {
     return (
-      <div className='projects'>
+      <div className='projects' style={{display: 'flex', justifyContent: 'center'}}>
         
-            <h2 style={{marginTop: '40px'}}>
+            <h2 style={{marginTop: '-80px', width: '15rem', position: 'relative', zIndex: '1'}}>
+
+              
                 Projects
             </h2>
         
