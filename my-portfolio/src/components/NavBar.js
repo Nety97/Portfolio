@@ -1,6 +1,7 @@
 import { Navbar, Container, Nav } from "react-bootstrap";
 import Rotate from 'react-reveal/Rotate';
 import Fade from 'react-reveal/Fade';
+import Logo from '..//img/portfolio.png'
 
 
 function NavBar() {
@@ -8,10 +9,12 @@ function NavBar() {
     <nav className="navs">
       <Navbar bg="" expand="lg">
         <Container>
-          <Rotate top left>
-            <Navbar.Brand href="/">Netaniel Wahnich</Navbar.Brand>
+          
+            <Navbar.Brand href="/" className='logo'>
+              <img src={Logo} alt='portfolio'/>
+            </Navbar.Brand>
             
-          </Rotate>
+          
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto ">

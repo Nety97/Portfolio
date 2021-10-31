@@ -10,7 +10,10 @@ function Home() {
        
         <div className='home'>
           <Fade left>
-            <h1>Hi Netaniel Wahnich here <br/> and I'm a Full Stack Web Developer</h1>
+            <h1>
+              Hi Netaniel Wahnich here and I'm a <br/>
+              <span className='highlight'>Full Stack Web Developer</span>
+            </h1>
           </Fade>
         </div>
         <div className='curve2'></div>
