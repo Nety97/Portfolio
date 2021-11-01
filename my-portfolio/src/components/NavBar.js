@@ -1,5 +1,5 @@
 import { Navbar, Container, Nav } from "react-bootstrap";
-import Rotate from 'react-reveal/Rotate';
+// import Rotate from 'react-reveal/Rotate';
 import Fade from 'react-reveal/Fade';
 import Logo from '..//img/portfolio.png'
 
