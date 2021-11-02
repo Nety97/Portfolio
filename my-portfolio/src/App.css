@@ -150,6 +150,11 @@ a{
 .logo{
   width: 50px;
 }
+.projectHolder{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 .projectsImg{
   
   margin-bottom: 10rem;
@@ -160,10 +165,13 @@ a{
   flex-direction: column;
   align-items: center;
 }
-.projectHolder{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+.textP {
+  padding: 0px 25px;
+  height: 32vh;
+  justify-content: space-evenly;
+}
+.textP > p{
+  color: black;
 }
 .button{
   width: 120px;
@@ -178,4 +186,22 @@ a{
 .button:hover{
   background: linear-gradient(180deg, var(--fColor), var(--sColor));
   color: pink!important;
+}
+
+/* animation: animateCircle 5s linear infinite; */
+
+
+
+
+
+@media all and (max-width: 800px) {
+  .boxP{
+    width: 80vw;
+  }
+  .projectsImg {
+    margin-bottom: 2rem;
+  }
+  .button{
+    margin-bottom: 2rem;
+  }
 }

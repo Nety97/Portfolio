@@ -2,6 +2,7 @@
 import Projects from './Projects';
 import Footer from './Footer';
 import Fade from 'react-reveal/Fade';
+// import AboutMe from './AboutMe';
 
 
 function Home() {
@@ -23,7 +24,9 @@ function Home() {
         </div>
 
         <Projects/>
+        {/* <AboutMe/> */}
         <Footer/>
+        
       </div>
     );
   }

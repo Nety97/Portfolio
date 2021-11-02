@@ -19,7 +19,7 @@ function Projects() {
             <img style={{borderRadius: '8px'}} src={Guitar} alt='guitar'/>
           </div>
 
-          <div className='boxP'>
+          <div className='boxP textP'>
             <h3>Virtual Guitar</h3>
             <p>Using HTML, CSS and JS I create a virtual Guitar How cool is that! <br/>
             You can actually play either on classic or electronic mode.</p>
@@ -32,7 +32,7 @@ function Projects() {
             <img style={{borderRadius: '8px'}} src={Trolleo} alt='trolleo'/>
           </div>
 
-          <div className='boxP'>
+          <div className='boxP textP'>
             <h3>Trolleo</h3>
             <p>
               This project was the last project in the bootcamp and I made a clone of Trello. <br/>
@@ -47,7 +47,7 @@ function Projects() {
             <img style={{borderRadius: '8px'}} src={Memory} alt='memory game'/>
           </div>
 
-          <div className='boxP'>
+          <div className='boxP textP'>
             <h3>Avengers Memory Game</h3>
             <p>
               Train your memory with your favorites super heroes. <br/>
