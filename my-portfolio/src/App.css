@@ -190,7 +190,9 @@ a{
 
 /* animation: animateCircle 5s linear infinite; */
 
-
+.links{
+  width: fit-content;
+}
 
 
 @media all and (max-width: 800px) {
@@ -210,6 +212,20 @@ a{
 @media all and (max-width: 500px) {
   .boxP{
     width: 370px;
+  }
+  footer{
+ 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    
+  }
+  .links{
+    margin-top: 5px;
+  }
+  .space{
+    margin-bottom: 12px;
   }
 }
 @media all and (max-width: 340px) {
