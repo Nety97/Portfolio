@@ -23,7 +23,7 @@ function Projects() {
             <h3>Virtual Guitar</h3>
             <p>Using HTML, CSS and JS I create a virtual Guitar How cool is that! <br/>
             You can actually play either on classic or electronic mode.</p>
-            <div className='button'><a  href='https://guitar-player.netlify.app/' target='_blank' rel="noreferrer">Try it!</a></div>
+            <a  href='https://guitar-player.netlify.app/' target='_blank' rel="noreferrer"><div className='button'>Try it!</div></a>
           </div>
         </div>
 
@@ -38,7 +38,7 @@ function Projects() {
               This project was the last project in the bootcamp and I made a clone of Trello. <br/>
               Once you sign up you can create many tables as you want and have all yours tasks organized!
             </p>
-            <div className='button'><a  href='https://trolleo.netlify.app/' target='_blank' rel="noreferrer">Try it!</a></div>
+            <a  href='https://trolleo.netlify.app/' target='_blank' rel="noreferrer"><div className='button'>Try it!</div></a>
           </div>
         </div>
 
@@ -53,7 +53,7 @@ function Projects() {
               Train your memory with your favorites super heroes. <br/>
               If you wanna win you have to click on the 12 superheroes cards but you only can click once or you have to restard.
             </p>
-            <div className='button'><a  href='https://avengers-memory-game.netlify.app/' target='_blank' rel="noreferrer"cd >Try it!</a></div>
+            <a  href='https://avengers-memory-game.netlify.app/' target='_blank' rel="noreferrer"cd ><div className='button'>Try it!</div></a>
           </div>
         </div>
 
