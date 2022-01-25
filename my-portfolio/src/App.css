@@ -76,13 +76,14 @@ select {
 .home{
   width: 100vw;
   height: 43vh;
-  /* background-color: aqua; */
+  
   display: flex;
   justify-content: center;
   align-items: center;
   background: linear-gradient(var(--fColor), var(--sColor));
   /* border-bottom-left-radius: 50% 35%; */
   border-bottom-right-radius: 50% 130px;
+  flex-direction: column;
 }
 .curve{
   margin-top: 0;
@@ -135,11 +136,11 @@ footer{
 
 .highlight {
   position: relative;
-  font-size: 3rem;
+  /* font-size: 3rem; */
 }
-h1{
+/* h1{
   font-size: 3rem!important;
-}
+} */
 a{
   color: black!important;
   text-decoration: inherit!important;
@@ -205,9 +206,9 @@ a{
   .button{
     margin-bottom: 2rem;
   }
-  h1, .highlight{
+  /* h1, .highlight{
     font-size: 1.8rem!important;
-  }
+  } */
 }
 @media all and (max-width: 500px) {
   .boxP{

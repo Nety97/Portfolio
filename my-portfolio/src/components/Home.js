@@ -11,10 +11,8 @@ function Home() {
        
         <div className='home'>
           <Fade left>
-            <h1>
-              Hi Netaniel Wahnich here and I'm a <br/>
-              <span className='highlight'>Full Stack Web Developer</span>
-            </h1>
+            <h1>Hi I&apos;m Netaniel Wahnich</h1>
+            <h2><span className='highlight'>Full Stack Web Developer</span></h2>
           </Fade>
         </div>
         <div className='curve2'></div>
